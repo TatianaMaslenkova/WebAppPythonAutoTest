@@ -1,0 +1,10 @@
+url: https://test-stand.gb.ru/gateway/login
+address: https://test-stand.gb.ru/api/posts
+post_address: https://test-stand.gb.ru/gateway/posts
+
+login: ta_mas
+password: 236efad7d5
+
+title: New_post_title
+description: New_post_description
+content: The following post was created for Homework 1 to test REST API
