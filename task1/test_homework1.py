@@ -10,7 +10,7 @@ S = requests.Session()
 def test_create_post(user_login, get_description):
     res = S.post(url=data['post_address'], headers={'X-Auth-Token': user_login},
                  data={'title': data['title'], 'description': data['description'], 'content': data['content']}).status_code
-    assert res == 200, 'create_post FAIL'
+    assert res == 200, 'create_post FAIL' # изменено
     # assert str(res) == '<Response [200]>', 'create_post FAIL'
 
 
