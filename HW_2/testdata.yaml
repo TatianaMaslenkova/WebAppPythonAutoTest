@@ -1,0 +1,10 @@
+address: https://test-stand.gb.ru
+browser: chrome
+sleep_time: 10
+
+login: ta_mas
+password: 236efad7d5
+
+title: HW_2_New_post_title
+description: HW_2_New_post_description
+content: HW_2_The following post was created for Homework 2 to have practice with Selenium WebDriver
