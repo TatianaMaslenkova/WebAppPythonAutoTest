@@ -1,0 +1,10 @@
+address: https://test-stand.gb.ru
+browser: chrome
+sleep_time: 1
+
+login: ta_mas
+password: 236efad7d5
+
+title: Sem_3_New_post_title
+description: Sem_3_New_post_description
+content: Sem_3_The following post was created for Seminar 3 to have practice with Selenium WebDriver
