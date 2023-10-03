@@ -1,0 +1,14 @@
+address: https://test-stand.gb.ru
+browser: chrome
+sleep_time: 5
+
+login: ta_mas
+password: 236efad7d5
+
+title: HW_3_New_post_title
+description: HW_3_New_post_description
+content: HW_3_The following post was created for HW 3 to have practice with PageObject
+
+contact_name: Tatiana
+contact_email: sevastianova21@mail.ru
+contact_message: HW_3 The following message was created for HW 3 to have practice with PageObject
