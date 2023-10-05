@@ -9,6 +9,7 @@ session = requests.Session()
 
 
 def test_create_post(get_token):
+    logging.info("Test create_post Starting")
     res = session.post(url=testdata['post_address'], headers={'X-Auth-Token': get_token},
                        data={'title': testdata['title'], 'description': testdata['description'],
                              'content': testdata['content']}).status_code
@@ -17,6 +18,7 @@ def test_create_post(get_token):
 
 
 def test_check_created_post(get_token):
+    logging.info("Test check_created_post Starting")
     result = session.get(url=testdata['api_address'], headers={'X-Auth-Token': get_token}).json()['data']
     logging.debug(f"Get request return: {result}")
     list_description = [i['description'] for i in result]
