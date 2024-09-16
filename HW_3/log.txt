@@ -1,0 +1,34 @@
+2023-10-03 17:29:03 INFO ====== WebDriver manager ======
+2023-10-03 17:29:04 INFO Get LATEST chromedriver version for google-chrome
+2023-10-03 17:29:05 INFO Get LATEST chromedriver version for google-chrome
+2023-10-03 17:29:05 INFO Driver [C:\Users\sevas\.wdm\drivers\chromedriver\win64\117.0.5938.92\chromedriver-win32/chromedriver.exe] found in cache
+2023-10-03 17:29:07 INFO Test login_negative Starting
+2023-10-03 17:29:08 INFO Send 'test' to element //*[@id="login"]/div[1]/label/input
+2023-10-03 17:29:08 INFO Send 'test' to element //*[@id="login"]/div[2]/label/input
+2023-10-03 17:29:08 INFO Click login button
+2023-10-03 17:29:09 INFO Start find error text
+2023-10-03 17:29:10 INFO We find text '401' in error field //*[@id="app"]/main/div/div/div[2]/h2
+2023-10-03 17:29:10 INFO Test login_positive Starting
+2023-10-03 17:29:10 INFO Send 'ta_mas' to element //*[@id="login"]/div[1]/label/input
+2023-10-03 17:29:10 INFO Send '236efad7d5' to element //*[@id="login"]/div[2]/label/input
+2023-10-03 17:29:10 INFO Click login button
+2023-10-03 17:29:10 INFO Start find success text
+2023-10-03 17:29:12 INFO We find text 'Hello, ta_mas' in login field //*[@id="app"]/main/nav/ul/li[3]/a
+2023-10-03 17:29:12 INFO Test add_post Starting
+2023-10-03 17:29:12 INFO Click add post button
+2023-10-03 17:29:15 INFO Send 'HW_3_New_post_title' to element //*[@id="create-item"]/div/div/div[1]/div/label/input
+2023-10-03 17:29:16 INFO Send 'HW_3_New_post_description' to element //*[@id="create-item"]/div/div/div[2]/div/label/span/textarea
+2023-10-03 17:29:16 INFO Send 'HW_3_The following post was created for HW 3 to have practice with PageObject' to element //*[@id="create-item"]/div/div/div[3]/div/label/span/textarea
+2023-10-03 17:29:16 INFO Click save post button
+2023-10-03 17:29:16 INFO Start find new post
+2023-10-03 17:29:19 INFO We find new post title 'HW_3_New_post_title' in field //*[@id="app"]/main/nav/ul/li[3]/a
+2023-10-03 17:29:19 INFO Start find new post
+2023-10-03 17:29:22 INFO We find new post title 'HW_3_New_post_title' in field //*[@id="app"]/main/nav/ul/li[3]/a
+2023-10-03 17:29:22 INFO Test contact_us Starting
+2023-10-03 17:29:22 INFO Click contact us link
+2023-10-03 17:29:24 INFO Send 'Tatiana' to element //*[@id="contact"]/div[1]/label/input
+2023-10-03 17:29:27 INFO Send 'sevastianova21@mail.ru' to element //*[@id="contact"]/div[2]/label/input
+2023-10-03 17:29:29 INFO Send 'HW_3 The following message was created for HW 3 to have practice with PageObject' to element //*[@id="contact"]/div[3]/label/span/textarea
+2023-10-03 17:29:32 INFO Click contact us button
+2023-10-03 17:29:33 INFO Get alert message
+2023-10-03 17:29:33 INFO Alert message: Form successfully submitted
